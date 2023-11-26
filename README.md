@@ -8,8 +8,8 @@ Add the "best-artworks-of-all-time" dataset in your kaggle workspace if you want
 ## Pretrained Models
 
 Download the pretrained weights for both models:
-- [Fine-Tuned VGG Model](https://drive.google.com/file/d/1l4wKy_5rd905fAaFkhrk0wW9G_dEnvHe/view?usp=sharing) (Place in 'fine_tuned_vgg_weights' directory)
-- [Scratch-Trained Model](https://drive.google.com/file/d/1QIsr4WK1nBIdVShpt0KzTrEYQIsN4zSa/view?usp=sharing) (Place in 'scratch_weights' directory)
+- [Fine-Tuned VGG Model](https://drive.google.com/file/d/1l4wKy_5rd905fAaFkhrk0wW9G_dEnvHe/view?usp=sharing) (Place it in new directory and name it as'fine_tuned_vgg_weights')
+- [Scratch-Trained Model](https://drive.google.com/file/d/1QIsr4WK1nBIdVShpt0KzTrEYQIsN4zSa/view?usp=sharing) (Place it in new directory and name it as'scratch_weights')
 
 ### 1. Fine-Tuned VGG Model
 
