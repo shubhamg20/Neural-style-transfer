@@ -31,13 +31,13 @@ Download the pretrained weights for both models:
 
 ## Other Approaches
 
-### 1. Encoder-Decoder Model [Reference](https://arxiv.org/pdf/1703.06868.pdf)
+### 1. Encoder-Decoder Model [Ref](https://arxiv.org/pdf/1703.06868.pdf)
 Instaed of initializing random image pixels that leads to the increase in number of steps while training, Encoder decoder model can be taken into consideration where your genearted image will be sampled from the latent space of style and content image rather than initializing it randonly.
 
 ### 2. Generative Adversarial Networks [Ref1](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9550797) and [Ref2](https://www.sciencedirect.com/science/article/pii/S1047320322000360)
 Integrating Generative Adversarial Networks (GANs) enhances the style transfer algorithm by introducing adversarial training. This involves a generator network creating stylized images and a discriminator discerning real from generated ones.
 
-### 3. Diffusion Models [Reference](https://openaccess.thecvf.com/content/CVPR2023W/GCV/papers/Hamazaspyan_Diffusion-Enhanced_PatchMatch_A_Framework_for_Arbitrary_Style_Transfer_With_Diffusion_CVPRW_2023_paper.pdf )
+### 3. Diffusion Models [Ref](https://openaccess.thecvf.com/content/CVPR2023W/GCV/papers/Hamazaspyan_Diffusion-Enhanced_PatchMatch_A_Framework_for_Arbitrary_Style_Transfer_With_Diffusion_CVPRW_2023_paper.pdf )
 Leveraging diffusion models in style transfer can integrate techniques from generative models that learn complex data distributions. Incorporating diffusion models introduces a probabilistic approach to style transfer, allowing for fine-grained control over stylized output and the potential to handle a broader range of artistic variations. By training the model on a diverse dataset of artistic styles, the diffusion process learns to generate images that match the desired style.
 
 Feel free to explore each approach in the respective branches and provide feedback or improvements.
