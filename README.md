@@ -27,7 +27,7 @@ Download the pretrained weights for both models:
    it needs further hyperparameter tuning or if needed you can increase the diversity of your dataset for modelling better feature extractor 
 
 2. **Usage:**
-   Incorporate the scratch-trained model into your Kaggle notebook by using the provided functions in the 'scratch_model.py' file.
+   Incorporate the ('scratch_trained.ipynb') model into your Kaggle notebook by using the provided functions in the 'scratch_model.py' file.
 
 ## Other Approaches
 
