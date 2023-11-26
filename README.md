@@ -23,7 +23,7 @@ Download the pretrained weights for both models:
 ### 2. Scratch-Trained Model
 
 1. **Training:**
-   Train the model from scratch using the provided training script (`train_scratch_model.py`). Customize training parameters as needed. If you want to use the
+   Train the model from scratch using the provided training script (`train_scratch_model.ipynb`). Customize training parameters as needed. If you want to use the
    trained weights then fetch it using this link or you can see the custom examples for the resuls. Although the custom model results are not as good as the fine tuned VGG,
    it needs further hyperparameter tuning or if needed you can increase the diversity of your dataset for modelling better feature extractor 
 
@@ -33,13 +33,13 @@ Download the pretrained weights for both models:
 ## Other Approaches
 
 ### 1. Encoder-Decoder Model
-Instead of initializing random image pixels, consider using an Encoder-Decoder model for style transfer. In this approach, the generated image is sampled from the latent space of the style and content images, providing a more controlled and efficient training process. To implement this, explore the 'encoder_decoder' branch of the repository.
+Instaed of initializing random image pixels that leads to the increase in number of steps while training, Encoder decoder model can be taken into consideration where your genearted image will be sampled from the latent space of style and content image rather than initializing it randonly.
 
 ### 2. Generative Adversarial Networks (GANs)
-Enhance the style transfer algorithm by integrating Generative Adversarial Networks (GANs). GANs introduce adversarial training, where a generator network creates stylized images, and a discriminator distinguishes real from generated ones. This addition can lead to more realistic and diverse stylized outputs. To explore GAN-based style transfer, check out the 'gan_integration' branch.
+Integrating Generative Adversarial Networks (GANs) enhances the style transfer algorithm by introducing adversarial training. This involves a generator network creating stylized images and a discriminator discerning real from generated ones.
 
 ### 3. Diffusion Models
-Consider leveraging diffusion models in style transfer, incorporating techniques from generative models that learn complex data distributions. Diffusion models introduce a probabilistic approach to style transfer, providing fine-grained control over stylized output and the ability to handle a broader range of artistic variations. To explore this, refer to the 'diffusion_models' branch, which includes training the model on a diverse dataset of artistic styles.
+Leveraging diffusion models in style transfer can integrate techniques from generative models that learn complex data distributions. Incorporating diffusion models introduces a probabilistic approach to style transfer, allowing for fine-grained control over stylized output and the potential to handle a broader range of artistic variations. By training the model on a diverse dataset of artistic styles, the diffusion process learns to generate images that match the desired style.
 
 Feel free to explore each approach in the respective branches and provide feedback or improvements.
 
