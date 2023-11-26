@@ -3,7 +3,7 @@
 This repository contains two PyTorch implementations of neural style transfer models: one fine-tuned VGG model and another model trained from scratch. 
 ## Prerequisites: 
 
-Add the "best-artworks-of-all-time" dataset in your kaggle workspace if you want to train your above models. But, if you want to use only style transfer algorithm then use the pretrained weights for both the kaggle notebooks as given below or enjoy analyzing the sample generated images within the notebook
+Add the "best-artworks-of-all-time" dataset in your kaggle workspace if you want to train your above models. But, if you want to use only style transfer algorithm then use the pretrained weights for both the kaggle notebooks as given below or enjoy analyzing the sample generated images within the notebook in "Style transfer ALgorithm" section in the last
 
 ## Pretrained Models
 
